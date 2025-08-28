@@ -1,0 +1,5 @@
+{
+  "ignore": ["data.sqlite", "client/**"],
+  "watch": ["server", "app.js"],
+  "ext": "js,json"
+}

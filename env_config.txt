@@ -1,0 +1,12 @@
+# Порт для запуска сервера
+PORT=8000
+
+# Секретный ключ для JWT токенов (замените на свой)
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+
+# URL базы данных (оставьте пустым для SQLite)
+DATABASE_URL=
+
+# Для продакшена можно использовать PostgreSQL или MySQL:
+# DATABASE_URL=postgresql://username:password@localhost:5432/todolist
+# DATABASE_URL=mysql://username:password@localhost:3306/todolist

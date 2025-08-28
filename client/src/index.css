@@ -1,0 +1,44 @@
+.site__wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.site__wrapper h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.addTask__wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.addTask__wrapper input {
+  height: 20px;
+  width: 400px;
+}
+
+.ToDoItem {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px dashed #000;
+  margin-top: 20px;
+}
+
+/* Page gradient background */
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: #ffffff;
+}
