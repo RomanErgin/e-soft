@@ -15,7 +15,7 @@ async function seed() {
   const emp1 = await User.create({
     firstName: 'Petr',
     lastName: 'Petrov',
-    login: 'petr',
+    login: 'employee1',
     passwordHash,
     role: 'employee',
     managerId: manager.id,
@@ -23,7 +23,7 @@ async function seed() {
   const emp2 = await User.create({
     firstName: 'Sidr',
     lastName: 'Sidorov',
-    login: 'sidr',
+    login: 'employee2',
     passwordHash,
     role: 'employee',
     managerId: manager.id,
